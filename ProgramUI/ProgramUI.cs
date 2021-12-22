@@ -25,7 +25,7 @@ namespace ConsoleUI
                 string commands = Console.ReadLine();
                 if (commands == "Help" || commands == "help")
                 {
-                    Console.WriteLine("Text goes here");
+                    Console.WriteLine("Type 'Add' to add a claim, Type 'Claim' to address the next claim, Type 'List' to see a list of all registered claims, Type 'Done' to exit the program.");
                 }
                 else if (commands == "Add" || commands == "add")
                 {
