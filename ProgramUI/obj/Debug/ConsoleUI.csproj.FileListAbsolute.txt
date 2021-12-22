@@ -1,0 +1,10 @@
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\bin\Debug\ProgramUI.exe.config
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\bin\Debug\ProgramUI.exe
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\bin\Debug\ProgramUI.pdb
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\obj\Debug\ProgramUI.exe
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\obj\Debug\ProgramUI.pdb
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\bin\Debug\Repository.dll
+C:\Users\Ethan\source\repos\KomodoClaims\ProgramUI\bin\Debug\Repository.pdb
