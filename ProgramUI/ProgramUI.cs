@@ -81,8 +81,14 @@ namespace ConsoleUI
                 else if (commands == "List" || commands == "list")
                 {
 
-                    string list = Repo.GetList();
-                Console.WriteLine(list);
+                    List<ClaimPoco> _claims = Repo.GetList();
+                    for (int i = 0; i < _claims.Count; i++)
+                    {
+                        string list = "";
+                        list += _claims[i].ClaimID;
+                        list += " " + _claims[i].ClaimType + " " + _claims[i].Description + " $" + _claims[i].ClaimAmount + " " + _claims[i].DateOfIncident + " " + _claims[i].DateOfClaim + " " + _claims[i].IsValid;
+                        Console.WriteLine(list);
+                    }
 
                 }
                 else if (commands == "Done" || commands == "done")

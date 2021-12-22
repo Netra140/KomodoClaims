@@ -9,15 +9,9 @@ namespace Repository
     public class ClaimRepo
     {
         public List<ClaimPoco> _claims = new List<ClaimPoco>();
-        public string GetList()
+        public List<ClaimPoco> GetList()
         {
-            string list = "";
-            for (int i = 0; i < _claims.Count; i++) {
-                list += _claims[i].ClaimID;
-                list += " " + _claims[i].ClaimType + " " + _claims[i].Description + " $" + _claims[i].ClaimAmount + " " + _claims[i].DateOfIncident + " " + _claims[i].DateOfClaim + " " + _claims[i].IsValid;
-                list += "\n";
-            }
-            return list;
+            return _claims;
         }
         public void AddClaim (ClaimPoco claim)
         {

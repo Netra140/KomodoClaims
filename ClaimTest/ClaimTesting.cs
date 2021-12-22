@@ -42,8 +42,8 @@ namespace ClaimTest
         {
             ClaimRepo repository = new ClaimRepo();
             repository._claims = new List<ClaimPoco>() { new ClaimPoco(1, "Car", "Highway wreck by drunk driver", 200.00, new DateTime(2019, 3, 12), new DateTime(2019, 3, 31)), new ClaimPoco(2, "Home", "Housefire by arson", 10000.00, new DateTime(2020, 11, 15), new DateTime(2021, 6, 5)) };
-            string result = repository.GetList();
-            Assert.AreEqual(173,result.Length);
+            List<ClaimPoco> result = repository.GetList();
+            Assert.AreEqual(2,result.Count);
             
         }
     }
